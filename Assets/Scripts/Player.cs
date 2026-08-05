@@ -20,6 +20,10 @@ public class Player : MonoBehaviour
 
         transform.position += direction.normalized * (playerMoveSpeed * Time.deltaTime);
         
+        animator.SetBool("isMoving", horizontal != 0 || vertical != 0);
+        
+        animator.SetFloat("MoveX", horizontal);
+        animator.SetFloat("MoveY", vertical);
         if(horizontal < 0)
         {
             spriteRenderer.flipX = true;
@@ -27,9 +31,6 @@ public class Player : MonoBehaviour
         {
             spriteRenderer.flipX = false;
         }
-        animator.SetBool("isWalkingSide", horizontal != 0);
-        animator.SetBool("isWalkingBack",vertical > 0);
-        animator.SetBool("isWalkingFront", vertical < 0);
-
+    
     }
 }
