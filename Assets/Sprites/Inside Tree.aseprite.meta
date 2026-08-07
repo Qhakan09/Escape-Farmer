@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 80c971f576ad34e4da2f4a448927d917
+guid: bc2b63b7ae17e4e9dbad82164cfd0f40
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -76,7 +76,7 @@ ScriptedImporter:
     importHiddenLayers: 0
     layerImportMode: 1
     defaultPivotSpace: 0
-    defaultPivotAlignment: 0
+    defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
     mosaicPadding: 4
     spritePadding: 0
@@ -89,7 +89,7 @@ ScriptedImporter:
     importHiddenLayers: 0
     layerImportMode: 1
     defaultPivotSpace: 0
-    defaultPivotAlignment: 0
+    defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
     mosaicPadding: 4
     spritePadding: 0
@@ -98,7 +98,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 639215529327706540
+  platformSettingsDirtyTick: 639217220158137570
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -122,18 +122,18 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: "I\u0307sland texture first design"
+  - name: "I\u0307sland texture first design 1"
     originalName: 
-    pivot: {x: 2.6666667, y: -7}
+    pivot: {x: 2, y: -15}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 48
+      width: 64
       height: 16
-    spriteID: 95b2d542c8195453cbf1df614d0676ef
+    spriteID: 2437cabb9466a4927b21a4ac7a9bd527
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -143,58 +143,18 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
   spriteSheetImportData:
-  - name: "I\u0307sland texture first design_4"
+  - name: "I\u0307sland texture first design 1_9"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
+      x: 52
       y: 4
       width: 16
       height: 16
-    spriteID: 4499f4050ce9045928c473a490f5e492
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: "I\u0307sland texture first design_5"
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 20
-      y: 4
-      width: 16
-      height: 16
-    spriteID: 662226f5556b34be59f0e0eda7485f5a
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: "I\u0307sland texture first design_6"
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 36
-      y: 4
-      width: 16
-      height: 16
-    spriteID: 4e94591b9ca544d1e9701062f59f1a31
+    spriteID: dd0d10e61319c42d991266d6a55a4987
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -206,25 +166,25 @@ ScriptedImporter:
   asepriteLayers:
   - layerIndex: 0
     uuid:
-      value0: 2565809213
+      value0: 788780712
       value1: 0
       value2: 0
       value3: 0
     guid: 0
-    name: "I\u0307sland texture first design"
+    name: "I\u0307sland texture first design 1"
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: "I\u0307sland texture first design"
+    - name: Inside Tree
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
         x: 0
         y: 240
-        width: 48
+        width: 64
         height: 16
-      spriteId: 95b2d542c8195453cbf1df614d0676ef
+      spriteId: 2437cabb9466a4927b21a4ac7a9bd527
     linkedCells: []
     parentIndex: -1
   platformSettings:
@@ -280,4 +240,4 @@ ScriptedImporter:
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 256, y: 256}
-  previousTextureSize: {x: 64, y: 32}
+  previousTextureSize: {x: 128, y: 32}
